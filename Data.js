@@ -14,7 +14,6 @@ import {
 } from "./public/assets";
 
 export const navLinks = [
-  
   {
     id: "founders",
     title: "FOUNDER",
@@ -22,14 +21,6 @@ export const navLinks = [
   {
     id: "nft",
     title: "NFT",
-  },
-  {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
   },
 ];
 

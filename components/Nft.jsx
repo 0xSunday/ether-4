@@ -20,45 +20,45 @@ const Nft = () => {
 
       <div className="nft ">
         <motion.img
-          variants={fadeIn("up", "tween", 0.1, 0.6)}
+          variants={fadeIn("up", "tween", 0.1, 1)}
           src="./nft1.jpeg"
           alt="project"
         />
         <motion.img
-          variants={fadeIn("up", "tween", 0.2, 0.6)}
-          src="./nft3.jpeg"
-          alt="project"
-        />
-
-        <motion.img
-          variants={fadeIn("up", "tween", 0.3, 0.6)}
+          variants={fadeIn("up", "tween", 0.3, 1)}
           src="./nft2.jpeg"
           alt="project"
         />
 
         <motion.img
-          variants={fadeIn("up", "tween", 0.4, 0.6)}
-          src="./nft5.jpeg"
-          alt="project"
-        />
-        <motion.img
-          variants={fadeIn("up", "tween", 0.5, 0.6)}
-          src="./nft6.jpeg"
-          alt="project"
-        />
-        <motion.img
-          variants={fadeIn("up", "tween", 0.5, 0.6)}
-          src="./nft7.jpeg"
-          alt="project"
-        />
-        <motion.img
-          variants={fadeIn("up", "tween", 0.7, 0.6)}
-          src="./nft10.jpeg"
+          variants={fadeIn("up", "tween", 0.5, 1)}
+          src="./nft3.jpeg"
           alt="project"
         />
 
         <motion.img
-          variants={fadeIn("up", "tween", 0.8, 0.6)}
+          variants={fadeIn("up", "tween", 0.7, 1)}
+          src="./nft10.jpeg"
+          alt="project"
+        />
+        <motion.img
+          variants={fadeIn("up", "tween", 0.9, 1)}
+          src="./nft6.jpeg"
+          alt="project"
+        />
+        <motion.img
+          variants={fadeIn("up", "tween", 1.1, 1)}
+          src="./nft7.jpeg"
+          alt="project"
+        />
+        <motion.img
+          variants={fadeIn("up", "tween", 1.3, 1)}
+          src="./nft5.jpeg"
+          alt="project"
+        />
+
+        <motion.img
+          variants={fadeIn("up", "tween", 1.5, 1)}
           src="./nft11.jpeg"
           alt="project"
         />
