@@ -96,14 +96,14 @@ const CardDeal = () => (
     </motion.div>
     <motion.div
       variants={imageVarient("left", "tween", "0.2", 1)}
-      className={` -scale-x-100 ${layout.sectionImg}`}
+      className={`  ${layout.sectionImg}`}
     >
       <Image
         alt="card"
         src="/nft5.jpeg"
         width={700}
         height={700}
-        className="w-[100%] h-[100%] z-10 rounded-t-full border-2 border-white"
+        className="w-[100%] h-[100%] -scale-x-100 z-10 rounded-t-full border-2 border-white"
       />
       <div className="absolute z-5 right-1/6 top-0 w-[50%] h-[50%] rounded-full white__gradient"></div>
       <div className="absolute z-0 right-1/6 top-0 w-[50%] h-[50%] rounded-full pink__gradient"></div>
