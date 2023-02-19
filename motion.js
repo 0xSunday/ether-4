@@ -14,7 +14,7 @@ export const headerVariants = {
     transition: {
       type: "spring",
       stiffness: 80,
-      delay: .5,
+      delay: 0.5,
     },
   },
 };
@@ -105,6 +105,7 @@ export const fadeIn = (direction, type, delay, duration) => ({
     },
   },
 });
+
 
 export const planetVariants = (direction) => ({
   hidden: {

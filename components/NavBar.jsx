@@ -5,7 +5,21 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { use, useState } from "react";
 import { headerVariants } from "../motion";
- 
+
+const imageVarient = {
+  hidden: {
+    rotate: -180,
+  },
+  show: {
+    rotate: [360, -180, 0],
+    transition: {
+      
+      delay: 0.5,
+      duration: 3,
+    },
+  },
+};
+
 const NavBar = () => {
   const [tottle, setTottle] = useState(false);
 
@@ -18,12 +32,15 @@ const NavBar = () => {
       className="w-full flex py-6 justify-between items-center navbar z-10 text-white"
     >
       <div className="flex justify-center items-center gap-3 ">
-        <Image
+        <motion.img
+          initial="hidden"
+          animate="show"
+          variants={imageVarient}
           src="/logo.jpg"
           alt="logo"
           width={700}
           height={700}
-          className=" w-[60px] rounded-full"
+          className=" w-[60px] rounded-full "
         />
         <h1 className="text-3xl font-bold font-poppins">ETHER</h1>
       </div>

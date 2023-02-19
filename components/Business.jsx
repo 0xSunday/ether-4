@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { BsTwitter } from "react-icons/bs";
-import { fadeIn } from "../motion";
+import { fadeIn, textVariant } from "../motion";
 const Business = () => (
   <section
     id="founders"
@@ -19,17 +19,28 @@ const Business = () => (
       viewport={{ once: true, amount: 0.25 }}
       className={`${layout.sectionInfo} `}
     >
-      <h2 className={`${styles.heading2} text-[40px]`}>MEET THE FOUNDER'S</h2>
-      <p className={`${styles.paragraph2} max-w-[470px] mt-5`}>
+      <motion.h2
+        variants={textVariant(0.4)}
+        className={`${styles.heading2} text-[40px]`}
+      >
+        MEET THE FOUNDER'S
+      </motion.h2>
+      <motion.p
+        variants={textVariant(0.6)}
+        className={`${styles.paragraph2} max-w-[470px] mt-5`}
+      >
         The world of art is vast and diverse, with countless individuals working
         to create and share their unique visions with the world.
-      </p>
-      <p className={`${styles.paragraph2} max-w-[470px] mt-5`}>
+      </motion.p>
+      <motion.p
+        variants={textVariant(0.8)}
+        className={`${styles.paragraph2} max-w-[470px] mt-5`}
+      >
         One such person is @visionofviii ,through his own hard work and
         dedication, he has managed to create beautiful and meaningful pieces
         @ether
-      </p>
-      <Button styles="mt-8" content="Ether" />
+      </motion.p>
+      {/* <Button styles="mt-8" content="Ether" /> */}
     </motion.div>
 
     <motion.div

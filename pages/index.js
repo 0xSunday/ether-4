@@ -35,8 +35,8 @@ export default function Home() {
           <Billings />
           <CardDeal />
           <Testimonial />
-          <Client />
-          <Cta />
+          {/* <Client /> */}
+          {/* <Cta /> */}
           <Footer />
         </div>
       </div>
