@@ -5,7 +5,7 @@ import { BsTwitter } from "react-icons/bs";
 
 const FeedBackCard = ({ content, name, title, img }) => {
   return (
-    <div className=" border-2 border-dimWhite hover:scale-125 transition-transform  flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr:-10 sm:mr-5 mr-0 my-5 feedback-card">
+    <div className=" border-2 border-dimWhite  sm:hover:scale-125 transition-transform  flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr:-10 sm:mr-5 mr-0 my-5 feedback-card">
       <Image src={quotes} alt="quotes" className="w-[28px] " />
       <p className="text-font-poppins text-white font-nomral text-[18px] leading-[32px] my-10">
         {content}

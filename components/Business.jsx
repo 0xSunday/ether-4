@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { BsTwitter } from "react-icons/bs";
+import { FaDiscord } from "react-icons/fa";
 import { fadeIn, textVariant } from "../motion";
 const Business = () => (
   <section
@@ -40,7 +41,7 @@ const Business = () => (
         dedication, he has managed to create beautiful and meaningful pieces
         @ether
       </motion.p>
-      {/* <Button styles="mt-8" content="Ether" /> */}
+      <Button styles="mt-8" content="Ether" />
     </motion.div>
 
     <motion.div

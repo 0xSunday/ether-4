@@ -3,6 +3,7 @@ import Image from "next/image";
 import { card } from "../public/assets";
 import styles, { layout } from "../Styles";
 import { BsTwitter } from "react-icons/bs";
+import { FaDiscord } from "react-icons/fa";
 import Link from "next/link";
 import Button from "./Button";
 import { motion } from "framer-motion";
@@ -89,7 +90,7 @@ const CardDeal = () => (
             className={`hover:scale-110  gap-2 flex flex-row justify-center items-center py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-xl ${styles}`}
           >
             DISCORD
-            <BsTwitter className="text-2xl" />
+            <FaDiscord className="text-2xl" />
           </button>
         </Link>
       </motion.div>

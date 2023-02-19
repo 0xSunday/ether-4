@@ -66,9 +66,9 @@ const Hero = () => (
         height={700}
         className=" relative z-[5] mt-8 sm:mt-0 flex-row-reverse -scale-x-100"
       />
-      <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient "></div>
-      <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 whtie__gradient "></div>
-      <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient "></div>
+      <div className="absolute -z-[0] w-[40%] h-[35%] right-0 top-14 pink__gradient "></div>
+      <div className="absolute -z-[1] w-[80%] h-[80%] rounded-full right-0 bottom-40 whtie__gradient "></div>
+      <div className="absolute -z-[0] w-[50%] h-[50%] right-0  bottom-20 blue__gradient "></div>
     </motion.div>
     <div className="sm:hidden flex justify-center items-center my-10">
       <GetStarted />
